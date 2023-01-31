@@ -58,8 +58,8 @@
                 </nav>
             </div>
         </div>
-   </header>
         <router-view/>
+   </header>
   </div>
 </template>
 
