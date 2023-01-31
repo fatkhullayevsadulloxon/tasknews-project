@@ -57,9 +57,7 @@
                     </div>
                 </nav>
             </div>
-        <router-view/>
         </div>
-      
    </header>
   </div>
 </template>
@@ -77,7 +75,8 @@ export default {
 }
 @font-face {
   font-family: "SF Pro Display";
-  src: local("SF Pro Display"), url("../../assets/fonts/SF-Pro-Display-Regular.woff");
+  src: local("SF Pro Display"),
+    url("../../assets/fonts/SF-Pro-Display-Regular.woff");
 }
 
 .nav-top {
@@ -206,7 +205,7 @@ export default {
   font-weight: 600;
   font-size: 17px;
   line-height: 20px;
- color: #1D3068;
+  color: #1d3068;
   text-decoration: none;
   transition: all 0.4s;
 }
@@ -252,8 +251,8 @@ export default {
   color: #1d3068;
 }
 
-.red{
-    color: red !important;
+.red {
+  color: red !important;
 }
 </style>
 
