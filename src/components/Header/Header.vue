@@ -57,8 +57,8 @@
                 </nav>
             </div>
         </div>
-   </header>
         <router-view/>
+   </header>
 </template>
 
 <script>
