@@ -59,7 +59,7 @@
             </div>
         <router-view/>
         </div>
-        <router-view/>
+      
    </header>
   </div>
 </template>
