@@ -1,5 +1,6 @@
 <template>
-   <header class="header">
+  <div>
+       <header class="header">
         <div class="container">
             <img src="../../assets/img/ads-header.svg" alt="" width="1300" height="220">
             <div class="header__container">
@@ -57,8 +58,9 @@
                 </nav>
             </div>
         </div>
-        <router-view/>
    </header>
+        <router-view/>
+  </div>
 </template>
 
 <script>
